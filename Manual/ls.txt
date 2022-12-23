@@ -1,0 +1,21 @@
+
+                                    Slow Snail Man (boy, rather) Pages
+
+NAME
+    ls – list directory content
+
+SYNOPSIS
+    ls [-a1]
+
+DESCRIPTION.
+    When invoked without arguments, displays directory content in horizontal array.
+
+    The options implemented are:
+
+    -a      display hidden files, i.e., those that begin with a '.'
+    -1      display files in a vertical array, line-wise
+
+ERROR HANDLING    
+    1. displays option not available if unsupported flag is called
+    2. displays error using errno if directory doesn't exist
+    

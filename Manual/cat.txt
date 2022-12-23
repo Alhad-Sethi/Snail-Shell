@@ -1,0 +1,20 @@
+
+                                    Slow Snail Man (boy, rather) Pages
+
+NAME
+    cat – concatenate and print files
+
+SYNOPSIS
+    cat [-bn] [file1] ..[file3]
+
+DESCRIPTION.
+    When invoked without arguments, displays arguments expected.
+
+    The options implemented are:
+
+    -b      displays file without blank lines
+    -n      displays lines with index
+
+ERROR HANDLING    
+    1. When invoked without arguments, displayed arguments expected.
+    2. if invalid file passed, returns error using errno.

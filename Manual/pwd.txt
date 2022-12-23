@@ -1,0 +1,14 @@
+
+                                    Slow Snail Man (boy, rather) Pages
+
+NAME
+    pwd — display the working directory
+
+SYNOPSIS
+    pwd
+
+DESCRIPTION
+    Displays present working directory.
+
+ERROR HANDLING    
+    1. status check of getcwd() function returns error from errno

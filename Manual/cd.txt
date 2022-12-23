@@ -1,0 +1,20 @@
+
+                                    Slow Snail Man (boy, rather) Pages
+
+NAME
+    cd — change the working directory
+
+SYNOPSIS
+    rm [-h|~|directory]
+
+DESCRIPTION
+    When invoked without arguments, displays error of arguments not passed.
+
+    The options implemented are:
+
+    -h      displays correct usage
+    ~       change directory to home directory
+
+ERROR HANDLING    
+    1. When invoked without arguments, displays error of arguments not passed. 
+    2. status check of chdir() function returns error from errno

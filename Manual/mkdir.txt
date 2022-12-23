@@ -1,0 +1,21 @@
+
+                                    Slow Snail Man (boy, rather) Pages
+
+NAME
+    mkdir - make directory
+
+SYNOPSIS
+    mkdir [-pv] [filename]
+
+DESCRIPTION.
+    When invoked without arguments, does nothing and program continues.
+
+    The options implemented are:
+
+    -p      Create intermediate directories as required.
+    -v      verbose; show file name and then create
+
+ERROR HANDLING    
+    1. displays option not available if unsupported flag is called
+    2. displays error using errno if file already exists
+    

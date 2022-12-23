@@ -1,0 +1,20 @@
+
+                                    Slow Snail Man (boy, rather) Pages
+
+NAME
+    rm – remove directory entry
+
+SYNOPSIS
+    rm [-vi] [file1] [file2]...
+
+DESCRIPTION
+    When invoked without arguments, displays error of arguments not passed.
+
+    The options implemented are:
+
+    -v      verbose; show file name and then delete
+    -i      ask for confirmation
+
+ERROR HANDLING    
+    1. When invoked without arguments, displays error of arguments not passed. 
+    2. status check of remove() function returns error from errno

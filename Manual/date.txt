@@ -1,0 +1,22 @@
+
+                                    Slow Snail Man (boy, rather) Pages
+
+NAME
+     date – display date and time
+
+SYNOPSIS
+    date [-r filename] [-u]
+
+DESCRIPTION
+    When invoked without arguments, displays local time in IST.
+
+    The options implemented are:
+
+    -r filename     Returns last modified time of file; relative local address from current working address may be used or absolute address may be used.
+                    Returns error if file not found by checking against epoch time (seconds since umber of seconds that have elapsed since January 1, 1970 midnnight UTC)
+            
+    -u              returns time in UTC/GMT
+
+ERROR HANDLING    
+    1. when incorrect arguments are passsed, returns "option unavailable error" alongside correct usage; if more than that 
+    2. -r filename returns "file not found error" by checking against epoch time.
